@@ -12,7 +12,7 @@ public class Main {
 class SuperRestaurant {
     static class InfoRestaurant {
         static void print(double menuPrice, double specialMenuPrice) {
-
+                         //Cделать правельные выравнивания !!!
             System.out.printf("MENU \t\t\tx 1\t\tportions  \t\t\t%.2f MDL\n", Menu.getPriceMenu(1, Menu.getDiscount(1), menuPrice));
             System.out.printf("MENU \t\t\tx 5\t\tportions(- %d%%)\t\t%.2f MDL\n", Menu.getDiscount(5), Menu.getPriceMenu(5, Menu.getDiscount(5),menuPrice));
             System.out.printf("SPECIAL MENU \tx 1\t\tportion \t\t\t%.2f MDL\n", Menu.getPriceMenu(1, Menu.getDiscount(1), specialMenuPrice));
